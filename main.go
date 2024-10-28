@@ -23,7 +23,6 @@ func main() {
 	if err != nil {
 		log.Fatal("error reading file", err)
 	}
-
 	quiz := make([]qa, 0, len(lines))
 	for _, line := range lines {
 		quiz = append(quiz, qa{
