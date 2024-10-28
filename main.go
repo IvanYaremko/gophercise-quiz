@@ -19,7 +19,6 @@ func main() {
 		log.Fatal("failed to open csv file: %w", err)
 	}
 	reader := csv.NewReader(file)
-
 	lines, err := reader.ReadAll()
 	if err != nil {
 		log.Fatal("error reading file", err)
