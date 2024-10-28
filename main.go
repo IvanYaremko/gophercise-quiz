@@ -30,7 +30,6 @@ func main() {
 			answer:   line[1],
 		})
 	}
-
 	timer := time.NewTimer(10 * time.Second)
 
 	answer := ""
