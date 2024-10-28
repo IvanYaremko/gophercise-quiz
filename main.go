@@ -61,5 +61,4 @@ func main() {
 	}
 
 	fmt.Printf("You got %v out of %v questions correct\n", count, len(quiz))
-
 }
